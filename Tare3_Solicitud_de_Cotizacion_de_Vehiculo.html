@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.o, maximum=scale=1.0, minimun-scale=1.0"
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Formulario Cotizacion</title>
+    <!-- ESTILOS CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+<body background="D:\Bootstrap\img\175608-Sepik.jpg"alt="imagen" width="80" height="80"> 
+<center><ln>DATOS GENERALES DEL SOLICITANTE</ln>
+<p>FAVOR LLENAR LOS CAMPOS OBLIGATORIOS DEL FORMULARIO</p>
+<p><h1>COTIZACIONES EN LINES SKYBLUE</h1></p>
+</center>
+<p>
+<pre> <marquee>
+</marquee></pre>
+</p><CENTER>
+<p><h1>PARA SABER QUE VEHICULO BUSCAS SELECCIONA ALGUNO DE NUESTRO TIPOS DISPONIBLES</h1></p>
+</CENTER>
+
+<a href="https://www.bmw.com.ar/es/index.html"> <img src="D:\Bootstrap\img\BMW.jpg" alt="BMW» width="150″ height="125" /> </a>
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+<a href="https://www.toyota.com.gt/cotizar-carros-toyota-guatemala"> <img src="D:\Bootstrap\img\TOYOTA.PNG" alt="TOYOTA» width="150″ height="125" /> </a>
+
+&nbsp &nbsp &nbsp &nbsp 
+<a href="https://www.vw.com/es/"> <img src="D:\Bootstrap\img\VWPNG.PNG" alt="vw» width="150″ height="125" /> </a>
+&nbsp &nbsp &nbsp &nbsp 
+
+<a href="https://www.suzuki.com.gt/home/"> <img src="D:\Bootstrap\img\zuzuki.PNG" alt="zuzuki» width="150″ height="125" /> </a>
+
+<CENTER>
+<p><h1>DESPUES DE HABER CONOCIDO NUESTROS VEHICULOS DISPONIBLES LLENA FORMULARIO PARA COTIZACION</h1></p>
+</CENTER>
+
+
+
+
+<p><form name="formularioinscripcion " formularioinscripcion method="get">
+Ingrese Nombres: <input type="text" name="nombres" id="nombres"placeholder="Nombres">
+
+<input type="text" name="nombres" id="nombres"placeholder="Apellidos">
+</p>
+<p>
+Correo Electronico:<input type ="email" name="miemail" id="miemail" multiple id="Correo_Electronico"placeholder="Correo_Electronico">
+</p>
+
+Telefono: <input type="numbercliente" name="numerocliente" id="numerocliente" min=”0” max=”10” step="5"  placeholder="Telefono De Confirmacion" title ="Telefono de confirmacion de Reser"></p>
+
+<P>
+SELECCIONE MARCA VEHICULO INTERES  :
+<select name="Puesto">
+   <option selected value="0"> Marcas Disponibles </option>
+       <optgroup label="Seleccione Curso Asignar"> 
+       <option value="1">BMW</option> 
+       <option value="2">TOYOTA</option> 
+       <option value="3">VW</option> 
+       <option value="4">ZUZUKI</option>
+   </optgroup> 
+</select></p>
+<P>
+COMO DESEAS QUE TE CONTACTEMOS?  :
+<select name="Puesto">
+   <option selected value="0"> Forma de Contactar </option>
+       <optgroup label="Seleccione Curso Asignar"> 
+       <option value="1">CORREO ELECTRONICO</option> 
+       <option value="2">LLAMADA A MOVIL</option> 
+       <option value="3">WhatsApp</option> 
+       <option value="4">Sms Texto</option>
+   </optgroup> 
+</select></p>
+</P>
+
+<p>
+Mensaje: <textarea name="texto" rows="2" cols="65" placeholder="Escribenos un Mensaje"></textarea></p>
+
+<center>
+<p><p><p><p>
+<button type="Enviar_Formulario" onclick="mensaje('Ha Enviado Formulario Exitosamente')">
+  <img src="D:\Bootstrap\img\info.png" alt="imagen" width="32" height="32" style="vertical-align: middle">
+  Enviar_Cotizacion
+</button>
+<script>
+  function mensaje(Enviar_Cotizacion) {
+    alert(Se_Envia_Cotizacion);
+  }
+</script>
+</p></p></p>
+</center>
+
+
+<!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
